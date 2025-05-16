@@ -15,6 +15,13 @@ public class LegginsSlotScript : MonoBehaviour, IDropHandler
 
         string name = item.gameObject.name;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        // Разрешены только штаны
+>>>>>>> 0761fa78143ec1e122dc195c262e5474873699b1
+>>>>>>> c055c086984d5a49df20ee23e9beb4a2b8383115
         if (name != "LeatherLegginsIcon" && name != "IronLegginsIcon" &&
             name != "GoldLegginsIcon" && name != "DiamondLegginsIcon")
         {

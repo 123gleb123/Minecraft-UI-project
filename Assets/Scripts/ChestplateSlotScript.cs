@@ -15,9 +15,23 @@ public class ChestplateSlotScript : MonoBehaviour, IDropHandler
 
         string name = item.gameObject.name;
 
+<<<<<<< HEAD
         if (name != "LeatherChestplateIcon" && name != "IronChestplateIcon" &&
     name != "GoldChestplateIcon" && name != "DiamondChestplateIcon")
 {
+=======
+<<<<<<< HEAD
+        if (name != "LeatherChestplateIcon" && name != "IronChestplateIcon" &&
+    name != "GoldChestplateIcon" && name != "DiamondChestplateIcon")
+{
+=======
+        // Разрешённые иконки — только нагрудники
+        if (name != "LeatherChestplateIcon" && name != "IronChestplateIcon" &&
+    name != "GoldChestplateIcon" && name != "DiamondChestplateIcon")
+{
+    // НЕ ПОДХОДИТ! Вернуть обратно!
+>>>>>>> 0761fa78143ec1e122dc195c262e5474873699b1
+>>>>>>> c055c086984d5a49df20ee23e9beb4a2b8383115
     item.transform.SetParent(item.originalParent);
     item.transform.localPosition = Vector3.zero;
     return;
